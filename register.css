@@ -1,0 +1,47 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+    
+body{
+    
+
+}
+
+.form{
+    height: auto;
+    width: 70%;
+    background-color: #0202020a;
+    margin-left: 15%;
+    padding-left:4rem;
+    margin-top: 5%;
+    padding-top:20px;
+    /* border-radius: 30px; */
+}
+input[type="text"], input[type="number"],input[type="email"],input[type="password"]{
+    width:75%;
+}
+input[type="submit"]{
+    width:50%;
+    margin-left: 10%;
+    background-color: black;
+    color: white;
+}
+.button{
+    width: 500px;
+}
+
+@media screen and (max-width: 768px) {
+    *{
+        margin: 0px;
+        padding: 0px;
+    }
+    .form{
+        width: 100%;
+        margin-left: 0px;
+        padding-left: 2rem;
+        margin-top: 0;
+    }
+
+}

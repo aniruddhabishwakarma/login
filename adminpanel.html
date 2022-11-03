@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="adminpanel.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.3.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    <script src="admin.js" defer></script>
+</head>
+<body>
+    <div id="mySidenav" class="sidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+        <a href="#dashboard">Dashboard</a>
+        <a href="#users">Friends</a>
+        <a href="#settings">Settings</a>
+        <a href="email.html">Log-Out</a>
+      </div>
+      
+      <!-- Use any element to open the sidenav -->
+      <span onclick="openNav()" style="position: fixed;"><img src="https://superdevresources.com/wp-content/uploads/2015/01/css-hamburger-menu-icon.png" alt="" width="50" height="58"></span>
+
+      
+      
+      <!-- Add all page content inside this div if you want the side nav to push page content to the right (not used if you only want the sidenav to sit on top of the page -->
+      <div id="main" class="main">
+        <section id="dashboard" class="dashboard">
+        <div class="heading bg-dark text-light ">
+            <h1 class="text-center">Dashboard<i class="bi bi-person"></i> </h1>
+        </div>
+            <div class="cards">
+                <div class="card" style="width: 18rem;">
+                    <img src="https://cdn2.vectorstock.com/i/1000x1000/71/91/business-graph-growth-progress-blue-arrow-vector-1767191.jpg" class="card-img-top" alt="some image">
+                    <div class="card-body bg-dark text-light">
+                      <p class="card-text text-center"><b>Progress Bar</b></p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQk3BwjNbQBQzHaf-ojgde0sRt2wA-MVxRAomNGYuR-Bg&s" 
+                     class="card-img-top" alt="some image">
+                    <div class="card-body text-center bg-dark text-light">
+                      <p class="card-text "><b>Income Graph</b></p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="http://www.ubalt.edu/merrick/uploads/660x450-mobile-homepage/660x450-Infographic%20Icons_Data%20Analytics.jpg" class="card-img-top" alt="some image">
+                    <div class="card-body text-light bg-dark text-center">
+                      <p class="card-text"><b>Website analytics</b></p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="https://plausible.io/uploads/google-analytics-alternatives.png" class="card-img-top" alt="some image">
+                    <div class="card-body text-light bg-dark">
+                      <p class="card-text text-center"><b>Month Progress</b></p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="https://d33wubrfki0l68.cloudfront.net/da0f4737990831522b5ca640f48f380a2731813f/43698/images/monitor-sites-analytics-filter-30-days.png" class="card-img-top" alt="some image">
+                    <div class="card-body text-light bg-dark">
+                      <p class="card-text text-center"><b>30 day Analysis</b></p>
+                    </div>
+                  </div>
+                  <div class="card" style="width: 18rem;">
+                    <img src="https://img.freepik.com/free-vector/setup-analytics-concept-illustration_114360-1438.jpg?w=2000" class="card-img-top" alt="some image">
+                    <div class="card-body text-light bg-dark">
+                      <p class="card-text text-center "><b>Income Analysis</b></p>
+                    </div>
+                  </div>
+            </div>
+        </section>
+        <hr>
+       <section id="users">
+        <div class="user-profiles bg-dark text-light "><h2>Friends</h2></div>
+        <div class="cards mt-5">
+            <div class="card" style="width: 18rem;">
+                <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQmUbjoL6IYzihcnn3-MDo1E_VjkoRKYg-HLw&usqp=CAU" class="card-img-top" alt="some image">
+                <div class="card-body bg-dark text-light">
+                  <p class="card-text text-center"><b>Ram Bahadur</b></p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.pexels.com/photos/445109/pexels-photo-445109.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" 
+                 class="card-img-top" alt="some image">
+                <div class="card-body text-center bg-dark text-light">
+                  <p class="card-text "><b>Shyam Bahadur</b></p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.pexels.com/photos/837358/pexels-photo-837358.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="some image">
+                <div class="card-body text-light bg-dark text-center">
+                  <p class="card-text"><b>Hari Bahadur</b></p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.pexels.com/photos/845457/pexels-photo-845457.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="some image">
+                <div class="card-body text-light bg-dark">
+                  <p class="card-text text-center"><b>Ram Prasad</b></p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://images.pexels.com/photos/927451/pexels-photo-927451.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2" class="card-img-top" alt="some image">
+                <div class="card-body text-light bg-dark">
+                  <p class="card-text text-center"><b>Hari Prasad</b></p>
+                </div>
+              </div>
+              <div class="card" style="width: 18rem;">
+                <img src="https://www.incimages.com/uploaded_files/image/1920x1080/getty_624206636_200013332000928034_376810.jpg" class="card-img-top" alt="some image">
+                <div class="card-body text-light bg-dark">
+                  <p class="card-text text-center "><b>Hari Maya</b></p>
+                </div>
+              </div>
+        </div>
+       </section>
+       <hr>
+       <section id="settings" class="settings bg-dark text-light">
+            <div class="setting-heading bg-dark text-light">
+                <h1>General Profile Settings</h1>
+            </div>
+           <div class="tables mt-5">
+            <table class="table">
+                <tbody>
+                  <tr>
+                    <th scope="row">1</th>
+                    <td>Name</td>
+                    <td>Aniruddha Bishwakarma</td>
+                    <td><a href="#">Edit</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">2</th>
+                    <td>Username</td>
+                    <td>aniruddha123</td>
+                    <td><a href="#">Edit</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">3</th>
+                    <td>Contact No.</td>
+                    <td>9864995696</td>
+                    <td><a href="#">Edit</a></td>
+                  </tr>
+                  <tr>
+                    <th scope="row">4</th>
+                    <td>Password</td>
+                    <td>**********</td>
+                    <td><a href="#">Edit</a></td>
+                  </tr>
+                </tbody>
+              </table>
+           </div>
+       </section>
+      </div>
+</body>
+</html>
